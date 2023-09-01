@@ -55,7 +55,7 @@ class Program
 {
     static List<Contribuente> contribuenti = new List<Contribuente>();
 
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         bool continua = true;
 
@@ -101,7 +101,7 @@ class Program
         }
     }
 
-    static void InserisciContribuente()
+    private static void InserisciContribuente()
     {
         Console.WriteLine("Inserisci il nome:");
         string nome;
@@ -221,7 +221,7 @@ class Program
         Console.WriteLine(" ");
     }
 
-    static void StampaContribuenti()
+    private static void StampaContribuenti()
     {
         if (contribuenti.Count == 0)
         {
